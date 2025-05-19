@@ -85,29 +85,23 @@ onMounted(() => {
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
               :delay="900"
-              class="mt-4"
-            >
-              {{ $t('home.text1') }}
-            </p>
+              class="mt-4" v-html="$t('home.text1')"/>
+      
             <p
               v-motion
               :initial="{ opacity: 0, y: 50 }"
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
-              :delay="1100"
-            >
-              {{ $t('home.text2') }}
-            </p>
+              :delay="1100" v-html="$t('home.text2')"/>
+      
             <p
               v-motion
               :initial="{ opacity: 0, y: 50 }"
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
-              :delay="1400"
-            >
-              {{ $t('home.text3') }}
-            </p>
-            <p
+              :delay="1400"  v-html="$t('home.text3')"/>
+          
+            <!-- <p
               v-motion
               :initial="{ opacity: 0, y: 50 }"
               :enter="{ opacity: 1, y: 0 }"
@@ -115,17 +109,21 @@ onMounted(() => {
               :delay="1700"
             >
               {{ $t('home.text4') }}
-            </p>
+            </p> -->
+          <p 
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :enter="{ opacity: 1, y: 0 }"
+              :duration="1000"
+              :delay="1700" v-html="$t('home.text4')"/>
+           
             <p
               v-motion
               :initial="{ opacity: 0, y: 50 }"
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
-              :delay="2000"
-            >
-              {{ $t('home.text5') }}
-            </p>
-
+              :delay="2000" v-html="$t('home.text5')"/>
+           
             <div class="mt-8">
               <NuxtLink
                 v-motion

@@ -1,0 +1,116 @@
+[
+  {
+    "country": "Turkey",
+    "locations": "Turkey",
+    "population": "2,000,000–3,000,000",
+    "description": "Largest Circassian population outside the Caucasus."
+  },
+  {
+    "country": "Russia",
+    "locations": "Adygea, Krasnodar Krai, Kabardino-Balkaria, Karachay-Cherkessia",
+    "population": "751,487",
+    "description": "Home to indigenous Circassian republics."
+  },
+  {
+    "country": "Jordan",
+    "locations": "Jordan",
+    "population": "100,000–250,000",
+    "description": "Well-integrated community with historical military ties."
+  },
+  {
+    "country": "Syria",
+    "locations": "Syria",
+    "population": "80,000–120,000",
+    "description": "Many settled after 19th-century deportations."
+  },
+  {
+    "country": "Egypt",
+    "locations": "Egypt",
+    "population": "50,000",
+    "description": "Historical community, mostly in urban centers."
+  },
+  {
+    "country": "Germany",
+    "locations": "Germany",
+    "population": "40,000",
+    "description": "Modern migration and diaspora growth."
+  },
+  {
+    "country": "Libya",
+    "locations": "Libya",
+    "population": "35,000",
+    "description": "Community with roots in 19th century resettlements."
+  },
+  {
+    "country": "Iraq",
+    "locations": "Iraq",
+    "population": "34,000",
+    "description": "Mainly in the north; historical refugee population."
+  },
+  {
+    "country": "United States",
+    "locations": "United States",
+    "population": "25,000",
+    "description": "Small but organized community in several states."
+  },
+  {
+    "country": "Saudi Arabia",
+    "locations": "Saudi Arabia",
+    "population": "23,000",
+    "description": "Mostly urban residents of Circassian descent."
+  },
+  {
+    "country": "Iran",
+    "locations": "Iran",
+    "population": "5,000–50,000",
+    "description": "Concentrated in northern regions."
+  },
+  {
+    "country": "Israel",
+    "locations": "Israel",
+    "population": "4,000–5,000",
+    "description": "Recognized minority with military service."
+  },
+  {
+    "country": "Uzbekistan",
+    "locations": "Uzbekistan",
+    "population": "1,257",
+    "description": "Small remnant community."
+  },
+  {
+    "country": "Ukraine",
+    "locations": "Ukraine",
+    "population": "1,000",
+    "description": "Historical ties, community size declined."
+  },
+  {
+    "country": "Poland",
+    "locations": "Poland",
+    "population": "1,000",
+    "description": "Recent migrants and historical descendants."
+  },
+  {
+    "country": "Netherlands",
+    "locations": "Netherlands",
+    "population": "500",
+    "description": "Mostly post-Soviet migrants."
+  },
+  {
+    "country": "Canada",
+    "locations": "Canada",
+    "population": "400",
+    "description": "Recent arrivals, organized groups in major cities."
+  },
+  {
+    "country": "Belarus",
+    "locations": "Belarus",
+    "population": "116",
+    "description": "Small remaining community."
+  },
+  {
+    "country": "Turkmenistan",
+    "locations": "Turkmenistan",
+    "population": "54",
+    "description": "Tiny community from Soviet-era migrations."
+  }
+]
