@@ -36,11 +36,11 @@ useSeoMeta({
       </h1>
 
       <Divider class="my-4" />
-
       <!-- The Heart of Circassia -->
       <SectionHeaderNoImage :title="$t('diaspora.beginning.title')" />
       <p class="text-lg mt-2 mb-2">
-        {{ $t('diaspora.beginning.text1') }}
+        <!-- {{ $t('diaspora.beginning.text1') }} -->
+        <CustomText :text="$t('diaspora.beginning.text1')" />
       </p>
       <p class="text-lg mt-2 mb-2">
         {{ $t('diaspora.beginning.text2') }}
@@ -50,7 +50,6 @@ useSeoMeta({
       </p>
 
       <Divider class="my-4" />
-
       <!-- The Diaspora Experience -->
       <SectionHeaderNoImage :title="$t('diaspora.exile.title')" />
       <figure class="flex flex-col items-center justify-center gap-2 mb-4 mt-8">
@@ -59,9 +58,7 @@ useSeoMeta({
           {{ $t('diaspora.figure_2_caption') }}
         </figcaption>
       </figure>
-      <p class="text-lg mt-2 mb-2">
-        {{ $t('diaspora.exile.text1') }}
-      </p>
+      <p class="text-lg mt-2 mb-2" v-html="$t('diaspora.exile.text1')" />
       <p class="text-lg mt-2 mb-2">
         {{ $t('diaspora.exile.text2') }}
       </p>
@@ -70,7 +67,6 @@ useSeoMeta({
       </p>
 
       <Divider class="my-4" />
-
       <!-- Modern Diaspora Dynamics -->
       <SectionHeaderNoImage :title="$t('diaspora.today.title')" />
       <figure class="flex flex-col items-center justify-center gap-2 mb-4 mt-8">

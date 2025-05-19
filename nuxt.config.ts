@@ -57,6 +57,7 @@ export default defineNuxtConfig({
       // { code: 'fr', name: 'Français', file: 'fr.ts' },
       // { code: 'tr', name: 'Türkçe', file: 'tr.ts' },
     ],
+    compilation: { strictMessage: false, escapeHtml: false },
   },
   ogImage: {
     fonts: ['Playfair Display', 'Manrope'],
