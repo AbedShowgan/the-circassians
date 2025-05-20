@@ -1,22 +1,25 @@
 <script setup>
 import { onMounted, ref } from 'vue'
+import { stringifyQuery } from 'vue-router'
 
 const diasporaData = ref([])
-
+// const {diasporaData} =<{countr:stringifyQuery, }[]> useFetch('/data/diaspora.json')
 onMounted(async () => {
   try {
-    const res = await fetch('/diaspora.json')
+    const res = await $fetch('/data/diaspora.json')
     diasporaData.value = await res.json()
-  } catch (err) {
+  }
+  catch (err) {
     console.error('Failed to load diaspora data:', err)
   }
 })
 
 const columns = [
-  { key: 'country', label: 'Country' },
-  { key: 'locations', label: 'Locations' },
-  { key: 'population', label: 'Estimated Population' },
-  { key: 'description', label: 'Description' }
+  { key: 'country', label: 'Country', id: 'country' },
+  { key: 'locations', label: 'Locations', id: 'locations' },
+  { key: 'population', label: 'Estimated Population', id: 'population' },
+  { key: 'description', label: 'Description', id: 'description' },
+  
 ]
 </script>
 
@@ -30,6 +33,7 @@ const columns = [
       <UTable
         :columns="columns"
         :rows="diasporaData"
+        accessor-key="key"
         class="w-full"
       />
 
