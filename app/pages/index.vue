@@ -9,25 +9,33 @@ useHead({
   titleTemplate: title => `${title}`,
 })
 
+const i18n = useI18n()
 const quotes = ref([])
 
 async function loadQuotes() {
   try {
-    const response = await fetch('/homepage_quotes.json')
+    const locale = i18n.locale.value
+    const response = await fetch(`/quotes/${locale}.json`)
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`)
     }
-    const data = await response.json()
-    quotes.value = data
+    quotes.value = await response.json()
   }
   catch (error) {
     console.error('Failed to load quotes:', error)
+    quotes.value = []
   }
 }
 
+// Load quotes on mount and when language changes
 onMounted(() => {
   loadQuotes()
 })
+
+watch(() => i18n.locale.value, () => {
+  loadQuotes()
+})
+
 </script>
 
 <template>
@@ -76,7 +84,7 @@ onMounted(() => {
               :delay="600"
               class="text-2xl sm:text-4xl z-10"
             >
-              Nation <span class="font-bold">Erased</span> — People <span class="font-bold">Live</span>
+              {{ $t('home.heading') }}
             </h2>
 
             <p

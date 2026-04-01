@@ -77,9 +77,9 @@ function toggleDarkMode() {
 
       <!-- Wrapper for end controls -->
       <div id="end-controls" class="flex items-center justify-end gap-6 ms-auto">
-        <!-- <LangSelect /> -->
+        <LangSelect />
   
-        <!-- <span class="border-l border-white/50 h-[1rem]" /> -->
+        <span class="border-l border-white/50 h-[1rem]" />
         <div class="cursor-pointer text-lg leading-none" @click="toggleDarkMode">
           <Transition mode="out-in">
             <Icon

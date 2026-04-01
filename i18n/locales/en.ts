@@ -11,6 +11,7 @@ export default {
 
   // Home page
   home: {
+    heading: 'Nation Erased — People Live',
     text1: 'The Circassians are the indigenous people of Circassia, with a history stretching back thousands of years.',
     text2: 'In the 18th and 19th centuries, Tsarist Russia waged a century-long war of extermination, massacring entire villages, burning crops, and replacing the population with settlers from foreign ethnicities.',
     text3: 'The genocide reached its peak in the 1860s — when Circassians were forced on death marches to the Black Sea coast, crammed into ships, and deported.',

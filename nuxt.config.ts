@@ -62,9 +62,9 @@ export default defineNuxtConfig({
     strategy: 'prefix_and_default',
     locales: [
       { code: 'en', name: 'English', file: 'en.ts', isCatchallLocale: true },
-      // { code: 'ad', name: 'Адыгэбзэ', file: 'ad.ts' },
-      // { code: 'fr', name: 'Français', file: 'fr.ts' },
-      // { code: 'tr', name: 'Türkçe', file: 'tr.ts' },
+      { code: 'ad', name: 'Адыгабзэ', file: 'ad.ts' },
+      { code: 'fr', name: 'Français', file: 'fr.ts' },
+      { code: 'tr', name: 'Türkçe', file: 'tr.ts' },
     ],
   },
   scripts: {

@@ -1,8 +1,11 @@
 <script setup lang="ts">
 const i18n = useI18n()
 
-defineOgImage('Default.takumi', {
-  title: i18n.t('title'),
+defineOgImage({
+  component: 'Default.takumi',
+  props: {
+    title: i18n.t('title'),
+  },
 })
 
 useSeoMeta({
