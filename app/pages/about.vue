@@ -53,7 +53,7 @@ useSeoMeta({
       </SectionHeader>
 
       <div>
-        <p>{{ $t('about.introduction.text') }}</p>
+        <p class="text-base sm:text-lg">{{ $t('about.introduction.text') }}</p>
       </div>
 
       <Divider class="my-4" />
@@ -69,9 +69,9 @@ useSeoMeta({
         </h2>
       </SectionHeader>
 
-      <p>{{ $t('about.origins.text1') }}</p>
-      <p>{{ $t('about.origins.text2') }}</p>
-      <p>{{ $t('about.origins.text3') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.origins.text1') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.origins.text2') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.origins.text3') }}</p>
 
       <Divider class="my-4" />
 
@@ -86,11 +86,11 @@ useSeoMeta({
         </h2>
       </SectionHeader>
 
-      <p>{{ $t('about.languageAndCulture.text1') }}</p>
-      <p>{{ $t('about.languageAndCulture.text2') }}</p>
-      <p>{{ $t('about.languageAndCulture.text3') }}</p>
-      <p>{{ $t('about.languageAndCulture.text4') }}</p>
-      <p>{{ $t('about.languageAndCulture.text5') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.languageAndCulture.text1') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.languageAndCulture.text2') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.languageAndCulture.text3') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.languageAndCulture.text4') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.languageAndCulture.text5') }}</p>
 
       <Divider class="my-4" />
 
@@ -105,10 +105,10 @@ useSeoMeta({
         </h2>
       </SectionHeader>
 
-      <p>{{ $t('about.war.text1') }}</p>
-      <p>{{ $t('about.war.text2') }}</p>
-      <p>{{ $t('about.war.text3') }}</p>
-      <p>{{ $t('about.war.text4') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.war.text1') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.war.text2') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.war.text3') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.war.text4') }}</p>
 
       <Divider class="my-4" />
 
@@ -123,8 +123,8 @@ useSeoMeta({
         </h2>
       </SectionHeader>
 
-      <p>{{ $t('about.diaspora.text1') }}</p>
-      <p>{{ $t('about.diaspora.text2') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.diaspora.text1') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.diaspora.text2') }}</p>
 
       <Divider class="my-4" />
 
@@ -138,8 +138,8 @@ useSeoMeta({
         </h2>
       </SectionHeader>
 
-      <p>{{ $t('about.contributions.text1') }}</p>
-      <p>{{ $t('about.contributions.text2') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.contributions.text1') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.contributions.text2') }}</p>
 
       <Divider class="my-4" />
 
@@ -153,8 +153,8 @@ useSeoMeta({
         </h2>
       </SectionHeader>
 
-      <p>{{ $t('about.preserving.text1') }}</p>
-      <p>{{ $t('about.preserving.text2') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.preserving.text1') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.preserving.text2') }}</p>
 
       <Divider class="my-4" />
 
@@ -169,8 +169,8 @@ useSeoMeta({
         </h2>
       </SectionHeader>
 
-      <p>{{ $t('about.connecting.text1') }}</p>
-      <p>{{ $t('about.connecting.text2') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.connecting.text1') }}</p>
+      <p class="text-base sm:text-lg">{{ $t('about.connecting.text2') }}</p>
     </div>
   </div>
 </template>

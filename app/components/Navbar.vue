@@ -10,7 +10,7 @@ function toggleDarkMode() {
   <nav class="sticky top-0 w-full text-sm text-accent-50 border-b-2 border-accent bg-primary-800/80 backdrop-blur-md z-20">
     <div class="container grid grid-cols-[auto_1fr_auto] items-center mx-auto gap-6 p-4 md:px-0 text-lg">
       <NuxtLink to="/" aria-label="home-page" class="hidden sm:inline me-auto">
-        <img src="/images/adiga.svg" alt="circassian-flag" class="h-8">
+        <img src="/images/adiga.svg" alt="circassian-flag" class="h-10">
       </NuxtLink>
 
       <LazyUSlideover side="left" :title="$t('title')">
@@ -53,22 +53,22 @@ function toggleDarkMode() {
       </LazyUSlideover>
 
       <ul class="hidden sm:flex items-center justify-center gap-8">
-        <li>
+        <li class="text-xl">
           <NuxtLink class="hover:text-accent-100" active-class="font-bold text-accent-200" :to="{ path: '/' }">
             {{ $t('navbar.home') }}
           </NuxtLink>
         </li>
-        <li>
+        <li class="text-xl">
           <NuxtLink class="hover:text-accent-100" active-class="font-bold text-accent-200" :to="{ path: '/about' }">
             {{ $t('navbar.about') }}
           </NuxtLink>
         </li>
-        <li>
+        <li class="text-xl">
           <NuxtLink class="hover:text-accent-100" active-class="font-bold text-accent-200" :to="{ path: '/diaspora' }">
             {{ $t('navbar.diaspora') }}
           </NuxtLink>
         </li>
-        <li>
+        <li class="text-xl">
           <NuxtLink class="hover:text-accent-100" active-class="font-bold text-accent-200" :to="{ path: '/history' }">
             {{ $t('navbar.history') }}
           </NuxtLink>
@@ -76,11 +76,11 @@ function toggleDarkMode() {
       </ul>
 
       <!-- Wrapper for end controls -->
-      <div id="end-controls" class="flex items-center justify-end gap-6 ms-auto">
+      <div id="end-controls" class="flex items-center justify-end gap-8 ms-auto">
         <LangSelect />
   
-        <span class="border-l border-white/50 h-[1rem]" />
-        <div class="cursor-pointer text-lg leading-none" @click="toggleDarkMode">
+        <span class="border-l border-white/50 h-[2rem]" />
+        <div class="cursor-pointer text-xl leading-none" @click="toggleDarkMode">
           <Transition mode="out-in">
             <Icon
               v-if="colorMode.value === 'dark'"

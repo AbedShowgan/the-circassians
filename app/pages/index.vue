@@ -82,7 +82,7 @@ watch(() => i18n.locale.value, () => {
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
               :delay="600"
-              class="text-2xl sm:text-4xl z-10"
+              class="text-2xl sm:text-xl z-10"
             >
               {{ $t('home.heading') }}
             </h2>
@@ -93,7 +93,7 @@ watch(() => i18n.locale.value, () => {
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
               :delay="900"
-              class="mt-4"
+              class="mt-4 text-lg sm:text-md"
             >
               {{ $t('home.text1') }}
             </p>
@@ -103,6 +103,7 @@ watch(() => i18n.locale.value, () => {
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
               :delay="1100"
+              class="text-lg sm:text-md"
             >
               {{ $t('home.text2') }}
             </p>
@@ -112,6 +113,7 @@ watch(() => i18n.locale.value, () => {
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
               :delay="1400"
+              class="text-lg sm:text-md"
             >
               {{ $t('home.text3') }}
             </p>
@@ -121,6 +123,7 @@ watch(() => i18n.locale.value, () => {
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
               :delay="1700"
+              class="text-lg sm:text-md"
             >
               {{ $t('home.text4') }}
             </p>
@@ -130,11 +133,12 @@ watch(() => i18n.locale.value, () => {
               :enter="{ opacity: 1, y: 0 }"
               :duration="1000"
               :delay="2000"
+              class="text-lg sm:text-md"
             >
               {{ $t('home.text5') }}
             </p>
 
-            <div class="mt-8">
+            <div class="mt-8 ">
               <NuxtLink
                 v-motion
                 :initial="{ opacity: 0 }"
@@ -143,7 +147,7 @@ watch(() => i18n.locale.value, () => {
                 :delay="2300"
                 :to="{ path: '/about' }"
               >
-                <DisplayButton class="mb-4 me-4">
+                <DisplayButton class="mb-4 me-4 text-lg">
                   {{ $t('home.who_we_are') }}
                 </DisplayButton>
               </NuxtLink>
@@ -156,7 +160,7 @@ watch(() => i18n.locale.value, () => {
                 :delay="2600"
                 :to="{ path: '/diaspora' }"
               >
-                <DisplayButton class="mb-4 me-4">
+                <DisplayButton class="mb-4 me-4 text-lg">
                   {{ $t('home.where_we_are_now') }}
                 </DisplayButton>
               </NuxtLink>
@@ -169,7 +173,7 @@ watch(() => i18n.locale.value, () => {
                 :delay="2900"
                 :to="{ path: '/history' }"
               >
-                <DisplayButton class="mb-4 me-4">
+                <DisplayButton class="mb-4 me-4 text-lg">
                   {{ $t('home.history') }}
                 </DisplayButton>
               </NuxtLink>
