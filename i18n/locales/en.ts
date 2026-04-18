@@ -140,8 +140,8 @@ export default {
       },
       {
         year: 1763,
-        title: 'Construction of Mozdok Fort and Start of Russo-Caucasian War',
-        description: 'In a move to solidify its dominance in the Caucasus, the Russian Empire began constructing a military fort in Mozdok, a town originally established by Circassians in 1759. The construction, carried out without Circassian consent, signaled imperial ambitions and sparked fierce resistance led by Prince Misost Bematiqwa. This event is widely regarded as the beginning of the Russo-Caucasian War.',
+        title: 'Construction of Mozdok Fort and Start of Russo-Circassian War',
+        description: 'In a move to solidify its dominance in the Caucasus, the Russian Empire began constructing a military fort in Mozdok, a town originally established by Circassians in 1759. The construction, carried out without Circassian consent, signaled imperial ambitions and sparked fierce resistance led by Prince Misost Bematiqwa. This event is widely regarded as the beginning of the Russo-Circassian War.',
       },
       {
         year: 1765,
