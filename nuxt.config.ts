@@ -46,6 +46,11 @@ export default defineNuxtConfig({
     },
   },
 
+  routeRules: {
+    '/ad': { redirect: { to: '/ad-cr', statusCode: 301 } },
+    '/ad/**': { redirect: { to: '/ad-cr/**', statusCode: 301 } },
+  },
+
   // Modules options
   colorMode: {
     classSuffix: '',
@@ -62,7 +67,8 @@ export default defineNuxtConfig({
     strategy: 'prefix_and_default',
     locales: [
       { code: 'en', name: 'English', file: 'en.ts', isCatchallLocale: true },
-      { code: 'ad', name: 'Адыгабзэ', file: 'ad.ts' },
+      { code: 'ad-cr', name: 'Адыгабзэ', file: 'ad-cr.ts' },
+      { code: 'ad-la', name: 'Adıǵabze', file: 'ad-la.ts' },
       { code: 'fr', name: 'Français', file: 'fr.ts' },
       { code: 'tr', name: 'Türkçe', file: 'tr.ts' },
     ],
