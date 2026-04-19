@@ -196,7 +196,7 @@ export default {
       {
         year: 1860,
         title: 'Circassian National Congress Establishes Parliament',
-        description: 'A national congress of Circassian representatives convened in Sochi, establishing a parliament as the highest legislative authority of Circassia. Sochi was designated the capital, and Qerandiqo Berzeg was elected as the head of both the parliament and the Circassian nation.',
+        description: 'A national congress of Circassian representatives convened in Sochi, establishing a parliament as the highest legislative authority of Circassia. Sochi was designated the capital, and Gerandiqo Berzeg was elected as the head of both the parliament and the Circassian nation.',
       },
     ],
     genocide_article: {
