@@ -48,10 +48,12 @@
 }
 
 body {
-  font-family: 'Manrope', serif;
-  font-size: 16px;
+  font-family: 'Manrope', 'Noto Sans', serif;
+  font-size: 20px;
+  font-weight: 575;
   font-display: swap;
   line-height: 1.5;
+  color: #000;
 }
 
 h1,
@@ -63,6 +65,14 @@ p {
   &:not(:first-child) {
     margin-top: 1rem;
   }
+}
+
+p {
+  max-width: 68ch;
+  margin-inline: auto;
+  font-size: 20px;
+  font-weight: 575;
+  line-height: 1.5;
 }
 
 h1,

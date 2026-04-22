@@ -60,6 +60,7 @@ export default defineNuxtConfig({
       { name: 'Rubik Wet Paint', provider: 'google', global: true },
       { name: 'Lora', provider: 'google', global: true },
       { name: 'Manrope', provider: 'google', global: true },
+      { name: 'Noto Sans', provider: 'google', global: true },
     ],
   },
   i18n: {
