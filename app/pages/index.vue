@@ -10,6 +10,7 @@ useHead({
 })
 
 const i18n = useI18n()
+const localePath = useLocalePath()
 const quotes = ref([])
 
 async function loadQuotes() {
@@ -145,7 +146,7 @@ watch(() => i18n.locale.value, () => {
                 :enter="{ opacity: 1 }"
                 :duration="1000"
                 :delay="2300"
-                :to="{ path: '/about' }"
+                :to="localePath('/about')"
               >
                 <DisplayButton class="mb-4 me-4 text-lg">
                   {{ $t('home.who_we_are') }}
@@ -158,7 +159,7 @@ watch(() => i18n.locale.value, () => {
                 :enter="{ opacity: 1 }"
                 :duration="1000"
                 :delay="2600"
-                :to="{ path: '/diaspora' }"
+                :to="localePath('/diaspora')"
               >
                 <DisplayButton class="mb-4 me-4 text-lg">
                   {{ $t('home.where_we_are_now') }}
@@ -171,7 +172,7 @@ watch(() => i18n.locale.value, () => {
                 :enter="{ opacity: 1 }"
                 :duration="1000"
                 :delay="2900"
-                :to="{ path: '/history' }"
+                :to="localePath('/history')"
               >
                 <DisplayButton class="mb-4 me-4 text-lg">
                   {{ $t('home.history') }}
