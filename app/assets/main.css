@@ -56,6 +56,10 @@ body {
   color: #000;
 }
 
+.dark body {
+  color: #f0f0f0;
+}
+
 h1,
 h2,
 h3,
