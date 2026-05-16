@@ -10,13 +10,6 @@ useHead({
   titleTemplate: title => `${title} | ${i18n.t('about.title')}`,
 })
 
-defineOgImage({
-  component: 'Default.takumi',
-  props: {
-    title: i18n.t('about.title'),
-  },
-})
-
 useSeoMeta({
   title: i18n.t('about.title'),
   description: i18n.t('about.introduction.title'),

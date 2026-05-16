@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@vueuse/nuxt',
     '@nuxt/scripts',
-    'nuxt-og-image',
+    // 'nuxt-og-image', // disabled: incompatible with unhead@2.x
   ],
 
   nitro: {
